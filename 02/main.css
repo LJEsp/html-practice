@@ -5,6 +5,7 @@ div{
   border-radius: 100%;
   background-image: url(https://blended.amauonline.com/pluginfile.php/1/theme_nephila/loginbanner/1517389281/BlendedLearningLogo.png) ;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 img{
