@@ -1,0 +1,13 @@
+div{
+  width: 400px;
+  height: 200px;
+  border: 40px groove red;
+  margin: 20px auto;
+  background-image: url(https://blended.amauonline.com/pluginfile.php/1/theme_nephila/loginbanner/1517389281/BlendedLearningLogo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.secondDiv{
+  box-sizing: border-box;
+}
