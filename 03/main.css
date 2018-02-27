@@ -1,0 +1,8 @@
+div{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border-radius: 24%;
+  border: 10px groove tomato;
+
+}
