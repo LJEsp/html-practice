@@ -1,19 +1,24 @@
+/* Element selector */
 h1{
 
 }
 
+/* Class selector. Can be used many times. */
 .emphasize{
 
 }
 
+/* ID selector. Can only be used once. */
 #p{
 
 }
 
+/* Attribute selector */
 [contenteditable]{
 
 }
 
+/* Pseudo-classes selectors. For interactivity */
 a:link{
   color: violet;
 }
@@ -26,6 +31,81 @@ a:hover{
   color: yellowgreen;
 }
 
+/* Active is for links. Focus is for forms. */
 a:active{
+
+}
+
+a:focus{
   color: yellow;
+}
+
+form:focus{
+
+}
+
+/* Pseudo-classes nth child selectors */
+li:first-child{
+
+}
+
+li:last-child{
+
+}
+
+li:nth-child(even){
+
+}
+
+li:nth-child(odd){
+
+}
+
+li:nth-child(3){
+
+}
+
+/* from the end */
+li:last-child(10){
+
+}
+
+/* start at 10th child then every 3rd child */
+li:nth-child(3n+10){
+
+}
+
+/* if it is the only child */
+li:only-child{
+
+}
+
+/* Pseudo-element selectors. Two colons. */
+p::first-letter{
+
+}
+
+p::first-line{
+
+}
+
+/* NESTED SELECTORS */
+/* P tags nested inside div tags. */
+div p{
+
+}
+
+/* Immediate p childs of a div tag. Not nested in any more tags. */
+div > p{
+
+}
+
+/* P tag siblings of div tags. Not nested tags. */
+div ~ p{
+
+}
+
+/* Immediate p tag sibling following a div tag. */
+div + p{
+  
 }

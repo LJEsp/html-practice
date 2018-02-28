@@ -1,0 +1,39 @@
+body{
+  background-color: darkblue;
+}
+
+div{
+  background-color: lightgreen;
+  width: 40%;
+  margin: 0 auto;
+  border: 6px solid black;
+  padding: 24px;
+}
+
+img{
+  width: 300px;
+  display: block;
+  margin: auto;
+  border-radius: 100%;
+  border: 16px groove yellow;
+}
+
+h1{
+  font-family: sans-serif;
+  font-size: 24px;
+  padding-bottom: 12px;
+}
+
+.header1{
+  color: blue;
+}
+
+.header2{
+  color: red;
+}
+
+p{
+  font-family: sans-serif;
+  font-size: 14px;
+  padding-bottom: 12px;
+}
