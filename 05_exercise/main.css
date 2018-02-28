@@ -1,8 +1,8 @@
-body{
+body {
   background-color: darkblue;
 }
 
-div{
+div {
   background-color: lightgreen;
   width: 40%;
   margin: 0 auto;
@@ -10,29 +10,29 @@ div{
   padding: 24px;
 }
 
-img{
+img {
   width: 300px;
   display: block;
-  margin: auto;
+  margin: 0 auto;
   border-radius: 100%;
   border: 16px groove yellow;
 }
 
-h1{
+h1 {
   font-family: sans-serif;
   font-size: 24px;
   padding-bottom: 12px;
 }
 
-.header1{
+.header1 {
   color: blue;
 }
 
-.header2{
+.header2 {
   color: red;
 }
 
-p{
+p {
   font-family: sans-serif;
   font-size: 14px;
   padding-bottom: 12px;
