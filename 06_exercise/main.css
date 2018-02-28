@@ -1,3 +1,41 @@
-#list:nth-child(3) {
+#list>li:nth-child(3) {
+  color: red;
+}
+
+.list>li:nth-child(3) {
+  color: red;
+}
+
+a[target] {
+  border: 2px solid black
+}
+
+#yahoo:link {
+  color: blue;
+}
+
+#yahoo:visited {
+  color: purple;
+}
+
+#yahoo:hover {
+  color: yellow;
+}
+
+#yahoo:active {
+  color: red;
+}
+
+.paragraph::first-letter {
+  color: blue;
+  font-size: 24px;
+}
+
+.paragraph::first-line {
+  color: blue;
+  font-size: 16;
+}
+
+div+p {
   color: red;
 }
