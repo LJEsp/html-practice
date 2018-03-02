@@ -12,10 +12,22 @@ h1 {
   color: tomato;
   text-align: center;
   text-shadow: 1px 2px 12px blue;
+
+  text-indent: 1rem;
+
+  max-width: 800px;
+
+  /* min-width:  */
+
 }
 
 p {
   font-size: 2rem;
   text-align: right;
   text-shadow: 5px 5px 1px red;
+
+  text-decoration: overline;
+  text-decoration-line: line-through;
+  text-decoration-style: wavy;
+  text-decoration-color: grey;
 }

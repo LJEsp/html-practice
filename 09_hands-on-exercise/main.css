@@ -1,0 +1,35 @@
+h1 {
+  font-family: serif;
+  text-shadow: 2px 2px 3px fuchsia;
+}
+
+p {
+  font-family: sans-serif
+  text-transform: uppercase;
+  font-style: italic;
+  letter-spacing: 1rem;
+  text-indent: 2rem;
+}
+
+h2 {
+  font-family: Raleway;
+  font-weight: 400;
+}
+
+.raleway-bold {
+  font-family: Raleway;
+  font-weight: 700
+}
+
+.raleway-black {
+  font-family: Raleway;
+  font-weight: 900
+}
+
+a {
+  text-decoration: none;
+}
+
+.irrelevant {
+  text-decoration:line-through;
+}
