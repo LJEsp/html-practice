@@ -1,0 +1,21 @@
+h1 {
+  font-family: font-family: 'Karma', serif;
+  font-size: 1.5rem;
+  /* Use rem (Relative to browser default font size). Or vw (Relative to viewport width)*/
+  font-weight: normal;
+  font-variant: small-caps;
+  font-style: italic;
+  line-height: 2;
+  text-transform: capitalize;
+  letter-spacing: 1.3rem;
+  word-spacing: ;
+  color: tomato;
+  text-align: center;
+  text-shadow: 1px 2px 12px blue;
+}
+
+p {
+  font-size: 2rem;
+  text-align: right;
+  text-shadow: 5px 5px 1px red;
+}
