@@ -4,7 +4,7 @@ h1 {
 }
 
 p {
-  font-family: sans-serif
+  font-family: sans-serif;
   text-transform: uppercase;
   font-style: italic;
   letter-spacing: 1rem;
@@ -15,6 +15,7 @@ h2 {
   font-family: Raleway;
   font-weight: 400;
 }
+
 
 .raleway-bold {
   font-family: Raleway;
