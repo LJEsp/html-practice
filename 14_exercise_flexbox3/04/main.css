@@ -1,0 +1,32 @@
+body {
+  height: 500px;
+  border: 6px dashed black;
+
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+
+div {
+  width: 24px;
+  height: 100px;
+  margin: .5rem;
+  background-color: crimson;
+  border: 3px solid black;
+  
+  /* flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto; */
+
+  flex: 0 1 auto;
+}
+
+#solo {
+  /* align-self: flex-end; */
+  /* order: -1;
+   */
+  flex-grow: 3;
+  flex-shrink: 3;
+}

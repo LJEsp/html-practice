@@ -1,0 +1,23 @@
+body {
+  height: 600px;
+  border: 6px solid black;
+  display: flex;
+  box-sizing: border-box;
+  
+}
+
+div {
+  margin: .5rem;
+  width: 100px;
+  height: 60px;
+  background-color: darkolivegreen;
+  border: 3px solid black;
+  box-sizing: border-box;
+
+  flex-flow: row nowrap;
+  flex: 1 1 40%;
+}
+
+.flex2{
+  flex: 1 1 auto;
+}

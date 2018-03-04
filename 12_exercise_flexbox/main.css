@@ -1,0 +1,31 @@
+div {
+  width: 200px;
+  height: 100px;
+  background-color: burlywood;
+  border: 2px solid black;
+  /* margin: 1rem; */
+  box-sizing: border-box;
+  /* flex-grow: 1;
+  flex-basis: auto; */
+  flex: 1 1 50%;
+}
+
+body {
+  padding: 12px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  height: 1000px;
+  border: 12px solid black;
+  /* flex-wrap: nowrap;
+    flex-direction: row; */
+}
+
+.align {
+  /* align-self: flex-end; */
+  /* flex-grow: 3; */
+  /* flex-shrink: 2; */
+  /* order: -1; */
+}

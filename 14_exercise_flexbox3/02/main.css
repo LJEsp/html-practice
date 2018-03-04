@@ -1,0 +1,12 @@
+body{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+div{
+    width: 100px;
+    height: 50px;
+    background-color: crimson;
+    border: 3px solid black;
+
+}

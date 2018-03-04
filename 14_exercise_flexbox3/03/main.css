@@ -1,0 +1,21 @@
+body {
+  height: 900px;
+  border: 6px dashed black;
+
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  align-items: stretch;
+  align-content: stretch;
+}
+
+div {
+  width: 100px;
+  /* height: 50px; */
+  margin: .5rem;
+  background-color: crimson;
+  border: 3px solid black;
+  
+  flex-grow: 1;
+  
+}
