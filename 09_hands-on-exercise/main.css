@@ -16,15 +16,14 @@ h2 {
   font-weight: 400;
 }
 
-
 .raleway-bold {
   font-family: Raleway;
-  font-weight: 700
+  font-weight: 700;
 }
 
 .raleway-black {
   font-family: Raleway;
-  font-weight: 900
+  font-weight: 900;
 }
 
 a {
@@ -32,5 +31,5 @@ a {
 }
 
 .irrelevant {
-  text-decoration:line-through;
+  text-decoration: line-through;
 }
