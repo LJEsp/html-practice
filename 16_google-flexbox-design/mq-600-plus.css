@@ -1,0 +1,26 @@
+.c1 {
+  width: 30%;
+  min-height: 600px;
+}
+
+.c2 {
+  width: 70%;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.i2 {
+  width: 50%;
+}
+
+.i4 {
+  width: 33.33%;
+}
+
+#i3a {
+  order: -1;
+}
+
+.c3 {
+  order: -1;
+}

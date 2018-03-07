@@ -1,0 +1,50 @@
+body {
+  display: flex;
+  flex-flow: row wrap;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.c1,
+.c2,
+.i2,
+.c3,
+.i3,
+.i4,
+.c4 {
+  width: 100%;
+  min-height: 100px;
+  background-image: url(img/Chrysanthemum.jpg);
+  object-fit: cover;
+}
+
+.c1,
+.i2,
+.i3,
+.i4,
+.c3 {
+  background-color: royalblue;
+  border: 2px solid lightgray;
+  box-sizing: border-box;
+}
+
+.c2 {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.i2 {
+  width: 50%;
+}
+
+.i3 {
+  width: 100%;
+}
+
+.i4 {
+  width: 33.33%;
+}
+
+#i3a {
+    min-height: 200px;
+}
