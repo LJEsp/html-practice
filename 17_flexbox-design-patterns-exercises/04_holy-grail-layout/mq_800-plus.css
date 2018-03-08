@@ -1,0 +1,27 @@
+article {
+    width: 70%;
+}
+
+header {
+    order: 1;
+}
+
+article {
+    order: 3;
+}
+
+aside {
+    width: 15%;
+}
+
+aside:nth-child(3) {
+    order: 2;
+}
+
+aside:nth-child(4) {
+    order: 4;
+}
+
+footer {
+    order: 5;
+}

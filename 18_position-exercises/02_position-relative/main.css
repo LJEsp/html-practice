@@ -1,0 +1,22 @@
+body {
+    width: 80%;
+    height: 800px;
+    border: 3px solid black;
+    margin: 0 auto;
+}
+
+div {
+    background-color: darkorange;
+    border: 3px solid red;
+    width: 266.6px;
+    height: calc(100% / 3);
+    box-sizing: border-box;
+    position: relative;
+    margin: 0 auto;
+}
+
+div:nth-child(2) {
+    position: relative;
+    top: 10px;
+    left: 20px;
+}

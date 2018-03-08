@@ -1,0 +1,13 @@
+body {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 6px;
+}
+
+header, nav, article, aside, footer {
+    width: 100%;
+    background-color: burlywood;
+    border: 2px solid black;
+    padding: 12px;
+    text-align: center;
+}

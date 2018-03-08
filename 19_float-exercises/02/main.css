@@ -1,0 +1,19 @@
+body {
+  width: 80%;
+  margin: 0 auto;
+}
+
+div {
+  border: 2px solid black;
+  min-height: 300px;
+}
+
+.left {
+  float: left;
+  width: 30%;
+}
+
+.right {
+  float: right;
+  width: 70%;
+}

@@ -1,0 +1,13 @@
+img {
+  float: left;
+  margin: 6px;
+}
+
+div {
+  border: 2px solid black;
+  overflow: auto;
+}
+
+.clear {
+  clear: both;
+}

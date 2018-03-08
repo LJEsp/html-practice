@@ -1,0 +1,11 @@
+div {
+  display: flex;
+  height: 100vh;
+  border: 12px solid red;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+    font-size: 3rem;
+}

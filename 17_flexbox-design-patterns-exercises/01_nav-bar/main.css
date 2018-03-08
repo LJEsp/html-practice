@@ -1,0 +1,33 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul {
+  background-color: dodgerblue;
+  display: flex;
+  flex-flow: column nowrap;
+  align-content: flex-start;
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  border-bottom: 1px solid whitesmoke;
+  color: white;
+  padding: 12px;
+  text-align: center;
+  list-style: none;
+}
+
+li:hover {
+  background-color: royalblue;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+li:last-child {
+  border-bottom: none;
+}

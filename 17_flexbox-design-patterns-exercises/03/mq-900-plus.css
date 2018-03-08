@@ -1,0 +1,15 @@
+body {
+    min-width: 900px;
+    max-width: 80%;
+}
+
+ul {
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    width: 20%;
+    text-align: left;
+}
+
+div {
+    width: 80%;
+}

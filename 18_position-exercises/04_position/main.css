@@ -1,0 +1,30 @@
+body {
+    min-width: 600px;
+    max-width: 60%;
+
+    /* border: 2px solid black; */
+    margin: 0 auto;
+
+    position: relative;
+}
+
+div {
+    position: absolute;
+    height: 400px;
+    width: 150px;
+
+    border: 2px solid red;
+    box-sizing: border-box;
+}
+
+main {
+    border: 2px solid black;
+    box-sizing: border-box;
+
+    height: 400px;
+
+    /* no need */
+    /* position: relative; */ 
+    margin-left: 150px;
+    
+}

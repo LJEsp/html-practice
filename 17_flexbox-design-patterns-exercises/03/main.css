@@ -1,0 +1,33 @@
+body {
+    padding: 24px;
+
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 auto;
+    
+}
+
+ul {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    justify-content: center;
+
+    border: 2px solid red;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+li {
+    padding: 9px;
+}
+
+div {
+    padding: 12px;
+    border: 2px solid red;
+    box-sizing: border-box;
+}
+
+p {
+    margin-bottom: 12px;
+}

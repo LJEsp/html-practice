@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    flex-flow: row wrap;
+    min-width: 600px;
+    max-width: 90%;
+}
+
+header {
+    width: 100%;
+}
+
+article {
+    width: 100%;
+}
+
+aside {
+    width: 50%;
+}
+
+footer {
+    width: 100%;
+}

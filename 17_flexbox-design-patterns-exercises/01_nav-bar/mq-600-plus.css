@@ -1,0 +1,9 @@
+ul {
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+}
+
+li {
+    border-bottom: none;
+    min-width: 100px;
+}
