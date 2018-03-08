@@ -1,0 +1,22 @@
+div {
+  background-color: burlywood;
+
+  /* just for background images */
+  
+  background-image: url("");
+
+  /* no-repeat, repeat, repeat-x, repeat-y */
+  background-repeat: unset;
+
+  /* cover or contain */
+  background-size: unset;
+
+  /* center or x and y (e.g. 300px 10px)*/
+  background-position: unset;
+
+  /* content-box, padding-box, border-box */
+  background-origin: unset;
+
+  /* scroll or fixed */
+  background-attachment: fixed;
+}
