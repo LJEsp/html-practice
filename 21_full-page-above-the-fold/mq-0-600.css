@@ -1,0 +1,17 @@
+header div a svg,
+header nav {
+  display: none;
+}
+
+header {
+  justify-content: center;
+}
+
+header div {
+  justify-content: center;
+}
+
+header div a h1 {
+  margin-left: unset;
+}
+

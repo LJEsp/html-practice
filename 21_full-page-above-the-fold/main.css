@@ -1,67 +1,163 @@
+/* * {
+  border: 1px solid cyan;  
+} */
+
+html {
+  font-family: "Cantarell", sans-serif;
+}
+
+header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 3rem;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  color: white;
+}
+
+header div,
+header nav {
+  width: 20rem;
+  height: 70%;
+  margin: 0 1rem;
+  display: flex;
+  align-items: center;
+
+  /* background-color: red; */
+}
+
+header nav {
+  justify-content: space-between;
+}
+
+header div a {
+  display: flex;
+  align-items: center;
+}
+
+header div a:hover {
+  color: #00bdff;
+}
+
+header div a h1 {
+  margin-left: 1rem;
+  font-size: 1rem;
+
+  /* border: 1px solid cyan; */
+}
+
+.idx-hdr-svg {
+  fill: currentColor;
+  width: 1.6rem;
+  padding: 0 1rem;
+
+  /* border: 1px solid cyan; */
+}
+
+header .idx-hdr-svg:hover {
+  color: #00bdff;
+  cursor: pointer;
+}
+
+/* Above the fold */
+
 #idx-atf {
-    height: 100vh;
-    padding: 6rem;
+  height: 100vh;
+  padding: 3rem;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* align-content: center; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* align-content: center; */
 
-    background-color: dimgray;
-    background-image: url("background-photo-mobile-devices.jpg");
-    background-repeat: no-repeat;
-    background-position:  center;
-    background-size: cover;
-    background-origin: border-box;
-    background-attachment: fixed;
+  background-color: dimgray;
+  background-image: url("background-photo-mobile-devices.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-origin: border-box;
+  background-attachment: fixed;
+
+  /* border: 2px solid cyan; */
 }
 
 .idx-center {
-    /* border: 2px solid black; */
+  /* border: 2px solid black; */
 
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: center;
-    /* align-content: center; */
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  /* align-content: center; */
 }
 
-div {
-    color: white;
+#idx-atf div {
+  color: white;
 
-    text-align: center;
-    font-family: 'Cantarell', sans-serif;
+  text-align: center;
 }
 
-h1 {
-    font-size: 2rem;
-    font-weight: 400;
+#idx-atf h1 {
+  font-size: 2rem;
+  font-weight: 400;
 
-    margin-bottom: 3rem;
+  margin-bottom: 3rem;
 }
 
-h2 {
-    font-size: 1rem;
-    font-weight: 700;
+#idx-atf h2 {
+  font-size: 1rem;
+  font-weight: 700;
 
-    margin-bottom: .5rem;;
+  margin-bottom: 0.5rem;
 }
 
-h3 {
-    margin-bottom: 3rem;
-    line-height: 1.5;
+#idx-atf h3 {
+  margin-bottom: 3rem;
+  line-height: 1.5;
 }
 
-button {
-    color: rgb(164, 214, 235);
-    font-weight: 700;
+#idx-atf button {
+  color: rgb(164, 214, 235);
+  font-weight: 700;
 
-    width: 14rem;
-    padding: .5rem;
-    border: 2px solid rgb(164, 214, 235);
-    border-radius: .5rem;
+  width: 14rem;
+  padding: 0.5rem;
+  border: 2px solid rgb(164, 214, 235);
+  border-radius: 0.5rem;
 }
 
-button:hover {
-    background-color: rgba(105,105,105,.7);
+#idx-atf button:hover {
+  background-color: rgba(105, 105, 105, 0.7);
+}
+
+#mobile-nav {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+#mobile-nav a {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+
+  height: 2.5rem;
+  padding-left: 1rem;
+  background-color: #00bdff;
+  border-bottom: 1px solid whitesmoke;
+  color: white;
+}
+
+#mobile-nav a:hover {
+  background-color: royalblue;
+
+}
+
+#mobile-nav #no-border {
+  border-bottom: unset;
 }
