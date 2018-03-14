@@ -1,0 +1,69 @@
+html {
+  font-family: sans-serif;
+}
+
+nav {
+  position: fixed;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+  height: 3rem;
+  padding: 0rem 1rem;
+
+  background-color: dimgray;
+  color: white;
+}
+
+nav div {
+  display: flex;
+  align-items: center;
+}
+
+nav div a,
+nav a {
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+
+  padding: 0rem 1rem;
+  margin: 0rem .5rem;
+  width: 5rem;
+  height: 2rem;
+}
+
+a:hover {
+  color: black;
+  background-color: gainsboro;
+  border-radius: 0.2rem;
+}
+
+/*  */
+
+section {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+
+  height: 100vh;
+}
+
+section svg {
+  width: 100%;
+  height: 24rem;
+  fill: pink;
+}
+
+section h1 {
+  width: 100%;
+
+  font-family: serif;
+  font-size: 6rem;
+  font-weight: 700;
+  color: lightgray;
+  text-align: center;
+}

@@ -1,0 +1,47 @@
+div.counter {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 9rem;
+  height: 3rem;
+
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  background-color: cornflowerblue;
+  border: 2px solid dimgray;
+
+  width: 30%;
+  height: 100%;
+}
+
+div.counter button:hover {
+  background-color: royalblue;
+}
+
+button#minus {
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+
+button#plus {
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+div.counter div {
+  border-top: 2px solid dimgray;
+  border-bottom: 2px solid dimgray;
+
+  width: 60%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.counter div p {
+  text-align: center;
+}
