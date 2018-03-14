@@ -149,7 +149,8 @@ header .idx-hdr-svg:hover {
   height: 2.5rem;
   padding-left: 1rem;
   background-color: #00bdff;
-  border-bottom: 1px solid whitesmoke;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   color: white;
 }
 
@@ -158,6 +159,6 @@ header .idx-hdr-svg:hover {
 
 }
 
-#mobile-nav #no-border {
-  border-bottom: unset;
+#mobile-nav a:last-child {
+  border-bottom: none;
 }
