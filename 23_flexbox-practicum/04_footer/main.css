@@ -1,0 +1,75 @@
+body {
+  margin: 0 auto;
+  width: 90%;
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+
+  /* border: 2px solid black; */
+}
+
+section {
+  height: 100vh;
+  text-align: center;
+
+  display: flex;
+  align-items: center;
+}
+
+section h1 {
+  font-size: 6em;
+  font-weight: 700;
+  color: lightslategray;
+}
+
+footer {
+  width: 100%;
+  padding: 2rem 3rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border-top: 3px solid lightskyblue;
+  /* background-color: magenta; */
+
+  font-size: 2rem;
+}
+
+footer div#saving {
+  display: flex;
+  align-items: center;
+}
+
+footer div#saving img {
+  height: 3rem;
+  margin-right: 1rem;
+
+  animation-name: loader;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-play-state: running;
+  /* border: 2px solid magenta; */
+}
+
+@keyframes loader {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+footer div#options button {
+  font-family: sans-serif;
+
+  background-color: lightskyblue;
+  color: white;
+  border-radius: 0.25rem;
+  padding: 0.5rem 1rem;
+}

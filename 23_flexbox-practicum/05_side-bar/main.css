@@ -1,0 +1,41 @@
+html {
+  font-size: 2vw;
+  font-family: sans-serif;
+}
+
+nav {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+
+  width: fit-content;
+  height: 100vh;
+  padding: 2rem 0rem;
+
+  background-color: white;
+  border-right: 1px solid lightgray;
+}
+
+nav div {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+nav a {
+  display: flex;
+  align-items: center;
+
+  width: 10rem;
+  height: 4rem;
+
+  color: deepskyblue;
+  padding-left: 2rem;
+
+  /* border: 2px solid magenta;   */
+}
+
+nav a:hover {
+  background-color: rgb(224, 247, 255);
+
+  /* border: 2px solid magenta;   */
+}

@@ -1,0 +1,57 @@
+html {
+  font-family: sans-serif;
+  font-size: 1rem;
+
+  color: lightskyblue;
+}
+
+#atf {
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  width: fit-content;
+  height: fit-content;
+
+  border: 2px solid lightskyblue;
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+}
+
+section div {
+  display: flex;
+  align-items: center;
+
+  height: fit-content;
+  padding: 0rem 1rem;;
+
+  border-bottom: 2px solid lightskyblue;
+
+  /* background-color: magenta; */
+}
+
+section div:last-child {
+  border-bottom: transparent;
+}
+
+section div svg {
+  height: 6rem;
+  width: 6rem;
+
+  margin: 1rem;
+  color: lightskyblue;
+
+  /* border: 1px solid magenta; */
+}
+
+section div h1 {
+  width: 24rem;
+}
+
+/* * {
+  border: 1px solid magenta !important;
+} */

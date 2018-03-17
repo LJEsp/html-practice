@@ -1,0 +1,65 @@
+body {
+  height: 100vh;
+  padding: 1rem;
+  padding-bottom: 3rem;
+
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+
+  color: dimgray;
+
+  text-align: center;
+}
+
+svg {
+  width: 10rem;
+  height: 10rem;
+
+  fill: lightskyblue;
+
+  /* border: 1px solid magenta; */
+
+  animation-name: rotate;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+button {
+  margin-top: 2rem;
+  width: 12rem;
+  height: 4rem;
+
+  background-color: lightskyblue;
+  color: white;
+
+  border-radius: 0.3rem;
+
+  font-family: sans-serif;
+  font-size: 1.7rem;
+}
+
+button:hover {
+  background-color: deepskyblue;
+}

@@ -1,0 +1,74 @@
+/* .leaf:hover {
+    fill: red;
+}
+
+.leaf {
+  transition-property: fill;
+  transition-duration: 500ms;
+  transition-timing-function: ease;
+  transition-delay: 0ms;
+} */
+
+body {
+  display: flex;
+  justify-content: center;
+  flex-flow: column nowrap;
+  align-items: center;
+
+  height: 100vh;
+  border: 2px solid black;
+}
+
+div {
+    border: 2px solid black;
+    width: 100%;  
+    margin: 1rem;
+}
+
+.leaf-anima {
+  position: relative;
+  left: 0;
+
+
+
+  animation-name: myCustomAnima;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0ms;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  /* animation-fill-mode: forwards; */
+  animation-play-state: running;
+
+  border: 2px solid black;
+}
+
+@keyframes myCustomAnima {
+  0% {
+    color: black;
+  }
+  100% {
+    color: gold;
+    left: calc(100vw - 100px);
+  }
+}
+
+h1 {
+    margin: 1rem; 
+    display: block;
+    /* border: 2px solid black; */
+    font-size: 3rem;
+
+    animation-name: text-grow;
+    animation-duration: 500ms;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+
+}
+
+@keyframes text-grow {
+    100% {
+        font-size: 12vw;
+    }
+}

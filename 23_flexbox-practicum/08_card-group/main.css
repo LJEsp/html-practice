@@ -1,0 +1,86 @@
+html {
+  font-family: sans-serif;
+  text-align: center;
+  color: lightslategrey;
+}
+
+#atf {
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section.group {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  flex-flow: row wrap;
+
+  /* border: 1px solid lightsteelblue; */
+  /* border-radius: 1rem; */
+}
+
+.card {
+  width: 10rem;
+  height: 13rem;
+
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
+
+  border: 1px solid lightsteelblue;
+  border-radius: .2rem;
+
+  margin: -.5px;
+}
+
+.card .top {
+  height: 80%;
+
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+
+  padding: 1rem;
+}
+
+.card .top svg {
+  width: 60%;
+  height: 60%;
+
+  padding-bottom: .5rem;
+
+  fill: lightsteelblue;
+}
+
+.card .bottom {
+  width: 100%;
+  height: 20%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: rgb(225, 247, 255);
+
+  font-weight: 700;
+
+  border-top: 1px solid lightsteelblue;
+}
+
+/* .group .card:first-child .bottom{
+  border-bottom-left-radius: 1rem;
+}
+
+.group .card:last-child .bottom{
+  border-bottom-right-radius: 1rem;
+}
+
+.group .card:last-child {
+  border-right: unset;
+
+} */
