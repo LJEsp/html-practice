@@ -1,0 +1,32 @@
+input[type="checkbox"] {
+  display: none;
+}
+
+label {
+  padding: .5rem 1rem;
+  background-image: linear-gradient(skyblue, rgb(86, 162, 192));
+  border-radius: .5rem;
+  color: white;
+
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  z-index: 1;
+}
+
+nav {
+  width: 12rem;
+  height: 100vh;
+
+  position: fixed;
+  left: -12rem;
+
+  background-color: grey;
+
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+input[type="checkbox"]:checked ~ #sidebar {
+  left: 0rem;
+}
