@@ -1,0 +1,11 @@
+header {
+  justify-content: space-between;
+}
+
+.sign-in {
+  display: flex;
+}
+
+main {
+    font-size: 4rem;
+}

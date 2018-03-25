@@ -1,14 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
+
 <body>
-    
-<form action="/apply" method="POST"></form>
+
+    <form action="/apply.php" method="POST">
+        <label for="fname">First Name: </label>
+        <input type="text" id="fname" name="firstName" value="Fred" title="Enter you name" placeholder="First name" autofocus autocomplete="off">
+        <br>
+        <label for="fname">First Name: </label>
+        <input type="week" id="fname" name="firstName" value="Fred" title="Enter you name" placeholder="First name" autofocus autocomplete="off">
+        <br>
+
+        <label for="textarea">Text Area</label>
+        <textarea name="" id="textarea" cols="30" rows="10"></textarea>
+
+        <label for="select">Drop-down Menu</label>
+        <select name="" id="select">
+            <option value="No">No</option>
+            <optgroup label="Group One">
+                <option value="">1</option>
+                <option value="">2</option>
+                <option value="">3</option>
+            </optgroup>
+        </select>
+
+        <fieldset disabled="disabled">
+            <legend>Name</legend>
+            <label for="firstname">First Name: </label>
+            <input type="text">
+
+            <input type="range" min="1" max="10" value="0">
+        </fieldset>
+    </form>
+
+
+    <progress min="0" max="100" value="50"></progress>
+
+    <meter min="200" max="500" value="350"></meter>
+
+    <meter min="200" max="500" value="350">350 degrees</meter>
+
+    <meter low="69" high="80" max="100" value="84">
+
 
 </body>
+
 </html>

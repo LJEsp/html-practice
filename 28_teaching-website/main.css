@@ -1,0 +1,123 @@
+body {
+  height: 100vh;
+  background-image: url(img/background-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+
+  font-family: sans-serif;
+  color: white;
+}
+
+#atf {
+}
+
+/* //////////////////////// HEADER //////////////////////// */
+
+header {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+
+  padding: 1rem 2rem;
+}
+
+header > a {
+  font-size: 2rem;
+}
+
+.sign-in {
+  display: none;
+  flex-flow: column;
+  align-content: center;
+
+  text-align: center;
+}
+
+.sign-in-button {
+  font-size: 1.5rem;
+  padding: 0.5rem 0.8rem;
+
+  border: 1px solid white;
+  border-radius: 0.5rem;
+
+  margin-top: 0.5rem;
+}
+
+.sign-in-button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+header > div {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+/* //////////////////////// MAIN //////////////////////// */
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+main > h1:hover {
+  color: red;
+}
+
+/* //////////////////////// SECTION //////////////////////// */
+
+body > section {
+  height: fit-content;
+  padding: 2rem;
+  text-align: center;
+
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+
+  background-color: rgba(150, 150, 150, 0.3);
+}
+
+body > section p {
+  max-width: 48rem;
+  font-size: 1rem;
+  line-height: 1.7rem;
+}
+
+.great {
+  padding: 0.6rem 1rem;
+  margin: 2rem;
+  border-radius: 0.2rem;
+  background-color: red;
+}
+
+body > section section {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-around;
+
+  font-size: 1.5rem;
+  color: rgb(199, 199, 199);
+}
+
+body > section section div {
+  padding: 0.8rem 1rem;
+  width: 8rem;
+}
+
+body > section section div:hover {
+  background-color: rgba(240, 240, 240, 0.26);
+  border-radius: 0.2rem;
+}
