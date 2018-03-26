@@ -1,0 +1,16 @@
+header {
+  flex-flow: row nowrap;
+}
+
+.logo {
+  width: initial;
+}
+
+header nav {
+  flex-grow: 3;
+  width: initial;
+}
+
+section#articles article {
+  width: 50%;
+}

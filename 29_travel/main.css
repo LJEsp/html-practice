@@ -1,0 +1,161 @@
+body {
+  color: rgb(59, 59, 59);
+}
+
+#atf {
+  height: 100vh;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+}
+
+/* //////////////////////// HEADER //////////////////////// */
+
+header {
+  height: fit-content;
+  background-color: rgb(235, 235, 235);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.logo {
+  letter-spacing: 0.2rem;
+  flex-grow: 1;
+  height: 3rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo:hover {
+  color: royalblue;
+}
+
+header nav {
+  /* flex-grow: 3; */
+}
+
+header nav ul {
+  display: none;
+}
+
+header nav a {
+  font-size: 0.8rem;
+  height: 3rem;
+  color: rebeccapurple;
+  flex-grow: 1;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav a:hover {
+  color: royalblue;
+  background-color: rgb(253, 250, 214);
+}
+
+/* //////////////////////// COVER //////////////////////// */
+
+.cover-photo {
+  flex-grow: 1;
+  background-image: url(photo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* //////////////////////// START //////////////////////// */
+
+section#start {
+  height: 12rem;
+  background-color: rgb(235, 235, 235);
+
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+section#start h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+section#start a {
+  font-size: 1.5rem;
+  color: white;
+  padding: 0.8rem 2.2rem;
+  background-color: rgb(59, 59, 59);
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+section#start a:hover {
+  background-color: royalblue;
+}
+
+/* //////////////////////// GALLERY //////////////////////// */
+
+section#gallery {
+  height: fit-content;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding: 1rem;
+}
+
+section#gallery img {
+  object-fit: cover;
+  width: 300px;
+  height: 250px;
+  padding: 1rem;
+  flex-grow: 1;
+}
+
+/* //////////////////////// ARTICLES //////////////////////// */
+
+section#articles {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 2rem;
+  padding-top: 0;
+}
+
+section#articles article {
+  width: 100%;
+  padding: 1rem;
+}
+
+section#articles article h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.2rem;
+}
+
+section#articles article p {
+  line-height: 2rem;
+  font-size: 1.2rem;
+}
+
+footer {
+  height: 9rem;
+  background-color: dimgray;
+  color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  /* border: 1px solid magenta !important; */
+}

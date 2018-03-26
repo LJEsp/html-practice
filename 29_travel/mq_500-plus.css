@@ -1,0 +1,16 @@
+header {
+  flex-flow: row wrap;
+}
+
+header nav ul {
+  display: flex;
+}
+
+.logo {
+  width: 100%;
+}
+
+header nav {
+  flex-grow: 3;
+  width: 100%;
+}
